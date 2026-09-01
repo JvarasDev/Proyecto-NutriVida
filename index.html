@@ -1,44 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutrivida</title>
-    <link rel="stylesheet" href="css/stylenavfooter.css">
-    <link rel="stylesheet" href="css/styleindex.css"> 
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriVida - Clínica Nutricional</title>
+  <link rel="stylesheet" href="css/stylefuentes.css">
+  <link rel="stylesheet" href="css/stylenavfooter.css">
+  <link rel="stylesheet" href="css/styleindex.css">
 </head>
+
 <body>
-<nav class="nav">
-  <a href="#" class="nav-logo"><img src="assets/img/NUTRIVIDA1.png" style="width:20%; height:30%; object-fit:cover;border-radius:10px;; " alt="Nutrivida"></a>
 
-  <button class="hamburger" id="hamburger" aria-label="Abrir menú">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
+  <!-- Header & Navigation -->
+  <header class="nav-header">
+    <nav class="nav">
+      <!-- Brand / Logo -->
+      <a href="index.html" class="nav-brand">
+        <svg viewBox="0 0 24 24" class="brand-icon" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A9.49 9.49 0 0 0 17 8zm-7 8a4 4 0 0 1 4-4c-2.5 0-3.5 2.5-4 4zm11-13c-4.48 0-9.87 2.45-12.79 6.22C8.38 7.37 10.63 6 13 6c2.42 0 4.6 1.05 6.13 2.73C19.74 5.95 20.67 4.14 21 3z" />
+        </svg>
+        <span>NutriVida</span>
+      </a>
 
-  <ul class="nav-menu" id="nav-menu">
-    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
-    <li class="nav-item"><a href="#servicios" class="nav-link">Servicios</a></li>
-    <li class="nav-item"><a href="#nosotros" class="nav-link">Nosotros</a></li>
-    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
-  </ul>
-</nav>
-<seccion id="inicio">
-  <div class="Bienvenida">
-    <h1>Clinica nutricional Nutrivida</h1>
-    <p>Asesoria nutricional personalizada</p>
-    <br></br>
-    <p>Descubre una vida más saludable con nuesro enfoque integral que combina presición clinica con bienestar orgánico.</p>
-    <a href="servicios.html" class="btn">Descubre nuestros servicios</a>
-    
-  </div>
-</seccion>
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú de navegación">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
+      <!-- Navigation Links & Actions -->
+      <div class="nav-menu-wrapper" id="nav-menu-wrapper">
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="servicios.html" class="nav-link">Productos</a>
+          </li>
+        </ul>
 
+        <div class="nav-actions">
+          <a href="login.html" class="nav-login">Login</a>
+          <a href="registro.html" class="nav-btn-register">Registro</a>
+        </div>
+      </div>
+    </nav>
+  </header>
 
+  <!-- Main Content -->
+  <main>
+    <section id="inicio">
+      <div class="Bienvenida">
+        <h1>Clínica Nutricional NutriVida</h1>
+        <p>Asesoría nutricional personalizada</p>
+        <br>
+        <p>Descubre una vida más saludable con nuestro enfoque integral que combina precisión clínica con bienestar
+          orgánico.</p>
+        <a href="servicios.html" class="btn">Descubre nuestros servicios</a>
+      </div>
+    </section>
+  </main>
 
-    
+  <!-- Footer Component -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <!-- Columna 1: Marca y Descripción -->
+        <div class="footer-brand-col">
+          <a href="index.html" class="footer-brand">
+            <svg viewBox="0 0 24 24" class="brand-icon" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A9.49 9.49 0 0 0 17 8zm-7 8a4 4 0 0 1 4-4c-2.5 0-3.5 2.5-4 4zm11-13c-4.48 0-9.87 2.45-12.79 6.22C8.38 7.37 10.63 6 13 6c2.42 0 4.6 1.05 6.13 2.73C19.74 5.95 20.67 4.14 21 3z" />
+            </svg>
+            <span>NutriVida</span>
+          </a>
+          <p class="footer-description">
+            Clínica Nutricional enfocada en el bienestar integral y la salud preventiva.
+          </p>
+        </div>
+
+        <!-- Columna 2: Enlaces -->
+        <div class="footer-links-col">
+          <h4 class="footer-title">Enlaces</h4>
+          <ul class="footer-nav">
+            <li><a href="#contacto" class="footer-link">Contacto</a></li>
+            <li><a href="#nosotros" class="footer-link">Sobre Nosotros</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Legal -->
+        <div class="footer-links-col">
+          <h4 class="footer-title">Legal</h4>
+          <ul class="footer-nav">
+            <li><a href="#privacidad" class="footer-link">Aviso de Privacidad</a></li>
+            <li><a href="#terminos" class="footer-link">Términos de Servicio</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Línea divisoria punteada -->
+      <hr class="footer-divider">
+
+      <!-- Columna Inferior: Copyright -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; 2026 NutriVida Clínica Nutricional. Todos los derechos reservados.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
+
 </html>

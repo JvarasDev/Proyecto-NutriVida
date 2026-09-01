@@ -1,16 +1,24 @@
+/* ==========================================================================
+   Sección Inicio
+   ========================================================================== */
 
+#inicio {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+}
 
-#inicio{
-    font-family: 'Manrope', sans-serif;
-    font-weight: 800;
+/* ==========================================================================
+   Sección Bienvenida
+   ========================================================================== */
+
+.Bienvenida h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  color: #c423da;
 }
-.Bienvenida h1{
-    font-family: 'Manrope', sans-serif;
-    font-weight: 500;
-    color: #c423da;
-}
-.Bienvenida p{
-    font-family: 'Manrope', sans-serif;
-    font-weight: 100;
-    color: #2ca115;
-}
+
+.Bienvenida p {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 100;
+  color: #2ca115;
+}
